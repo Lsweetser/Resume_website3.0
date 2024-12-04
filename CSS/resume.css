@@ -1,0 +1,187 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, serif;
+    background-color: rgb(220, 219, 219); /* Light Gray */
+    color: rgb(77, 75, 75); /* Dark Gray */
+}
+
+header {
+    background-color: rgb(77, 75, 75); /* Dark Gray */
+    padding: 10px 0;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+}
+
+header ul li {
+    display: flex;
+    align-items: center;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: rgb(220, 219, 219); /* Light Gray */
+    background-color: rgb(162, 147, 120); /* Tan */
+}
+
+/* Social Media Icon Styling */
+.social-icon {
+    width: 24px; /* Set icon size */
+    height: 24px;
+    border-radius: 50%; /* Optional: circular icons */
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Hover Effects for Social Icons */
+.social-icon:hover {
+    transform: scale(1.1);
+    filter: brightness(0.8); /* Slight darkening effect */
+}/* Common Styling */
+body {
+    font-family: Cambria, serif;
+    background-color: rgb(38, 37, 37); /* Light Gray */
+    color: rgb(162, 147, 120); /* Dark Gray */
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgb(77, 75, 75); /* Dark Gray */
+    padding: 10px 0;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+}
+
+header ul li {
+    display: flex;
+    align-items: center;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: rgb(220, 219, 219); /* Light Gray */
+    background-color: rgb(162, 147, 120); /* Tan */
+}
+
+/* Social Media Icon Styling */
+.social-icon {
+    width: 24px; /* Set icon size */
+    height: 24px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Hover Effects for Social Icons */
+.social-icon:hover {
+    transform: scale(1.1);
+    filter: brightness(0.8); /* Slight darkening effect */
+}
+
+/* Main Sections */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 20px 0;
+}
+
+/* Resume and Information Sections */
+.resume, .information {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    text-align: left;
+}
+
+/* Image Gallery */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 230px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Scroll Section */
+.scroll-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.box {
+    background-color: rgb(234, 222, 158); /* Light Yellow */
+    padding: 20px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+/* Back to Top Button */
+#backToTop {
+    position: fixed; /* Fixes the button to the viewport */
+    bottom: 10px; /* 10px from the bottom of the viewport */
+    left: 50%; /* Centers the button horizontally */
+    transform: translateX(-50%); /* Ensures the button is fully centered */
+    padding: 12px 20px; /* Adjust padding for better size */
+    background-color: rgb(162, 147, 120); /* Tan color for background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px; /* Adjust font size for visibility */
+    cursor: pointer;
+    text-align: center; /* Centers text inside the button */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    z-index: 1000; /* Ensures it stays above other elements */
+}
+
+#backToTop:hover {
+    background-color: rgb(77, 75, 75); /* Dark Gray on hover */
+}
+
+/* Optional: Add an arrow inside the button */
+#backToTop::before {
+    content: "↑"; /* Adds an upward arrow */
+    font-size: 20px; /* Adjust the size of the arrow */
+    display: inline-block;
+    margin-right: 5px; /* Space between the arrow and the text */
+}

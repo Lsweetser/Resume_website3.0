@@ -1,0 +1,265 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, serif;
+    background-color: rgb(220, 219, 219); /* Light Gray */
+    color: rgb(77, 75, 75); /* Dark Gray */
+}
+
+header {
+    background-color: rgb(77, 75, 75); /* Dark Gray */
+    padding: 10px 0;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+}
+
+header ul li {
+    display: flex;
+    align-items: center;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: rgb(220, 219, 219); /* Light Gray */
+    background-color: rgb(162, 147, 120); /* Tan */
+}
+
+/* Social Media Icon Styling */
+.social-icon {
+    width: 24px; /* Set icon size */
+    height: 24px;
+    border-radius: 50%; /* Optional: circular icons */
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Hover Effects for Social Icons */
+.social-icon:hover {
+    transform: scale(1.1);
+    filter: brightness(0.8); /* Slight darkening effect */
+}/* Common Styling */
+body {
+    font-family: Cambria, serif;
+    background-color: rgb(38, 37, 37); /* Light Gray */
+    color: rgb(162, 147, 120); /* Dark Gray */
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgb(77, 75, 75); /* Dark Gray */
+    padding: 10px 0;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+}
+
+header ul li {
+    display: flex;
+    align-items: center;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: rgb(220, 219, 219); /* Light Gray */
+    background-color: rgb(162, 147, 120); /* Tan */
+}
+
+/* Social Media Icon Styling */
+.social-icon {
+    width: 24px; /* Set icon size */
+    height: 24px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Hover Effects for Social Icons */
+.social-icon:hover {
+    transform: scale(1.1);
+    filter: brightness(0.8); /* Slight darkening effect */
+}
+
+/* Main Sections */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 20px 0;
+}
+
+/* Resume and Information Sections */
+.resume, .information {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    text-align: left;
+}
+
+/* Image Gallery */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Scroll Section */
+.scroll-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.box {
+    background-color: rgb(234, 222, 158); /* Light Yellow */
+    padding: 20px;
+    width: 200px;
+    border-radius: 8px;
+}
+/* Back to Top Button Styling */
+.back-to-top-container {
+    text-align: center;
+    margin-top: 20px;
+}
+/* Arrow styling */
+.arrow-up {
+    font-size: 30px;
+    color: rgb(162, 147, 120);  /* Color of the arrow */
+    margin-bottom: 5px;
+}
+
+/* Back to Top Button styling */
+.back-to-top {
+    margin-top: 10px;
+}
+
+.back-to-top-link {
+    color: rgb(0, 0, 0);  /* Corrected missing semicolon */
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid rgb(162, 147, 120);  /* Corrected missing semicolon */
+    border-radius: 5px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.back-to-top-link:hover {
+    background-color: rgb(162, 147, 120);  /* Added color */
+    color: white;
+    border-color: #000000;  /* Darker border on hover */
+}
+
+
+
+/* Back to Top Button Styling */
+.back-to-top {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-to-top-link {
+    color: rgb(162, 147, 120);
+    text-decoration: none;
+}
+
+.back-to-top-link:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(77, 75, 75); /* Dark Gray */
+    color: white;
+}
+/* Sticky Navigation Bar */
+header {
+    position: fixed; /* Makes the header fixed at the top */
+    top: 0; /* Stays at the top of the viewport */
+    width: 100%; /* Spans the entire width of the viewport */
+    z-index: 1000; /* Ensures it appears above other content */
+    background-color: rgb(77, 75, 75); /* Dark Gray */
+    padding: 10px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+/* Footer Styling */
+#footer {
+    background-color: rgb(33, 33, 33);  /* Dark background */
+    color: #f5f5f5;  /* Light text */
+    padding: 20px 0;
+    font-family: Cambria;  /* Matching font */
+    text-align: center;
+    margin-bottom: 10px; /* Space below footer */
+    margin-top: 40px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Spacing between testimonials */
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Space between text and image */
+}
+
+.testimonial p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.testimonial img {
+    width: 150px; /* Set placeholder image size */
+    height: 150px;
+    border-radius: 50%; /* Circular images */
+    border: 2px solid #f5f5f5; /* Border for contrast */
+}
